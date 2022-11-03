@@ -1,0 +1,23 @@
+.brand-navbar-llama {
+    width: 45px;
+    height: 45px;
+    margin-left: 36px;
+}
+
+.navbar-links-general {
+    justify-content: center;
+}
+
+.buttom-navbar-toggler {
+    margin-right: 9px;
+}
+
+.nav-item.active {
+    margin-left: 18px;
+}
+
+@media (max-width:375px) {
+    .navbar-links-general {
+        text-align: center;
+    }
+}
