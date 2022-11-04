@@ -1,0 +1,10 @@
+.home-div-tittle {
+    margin-top: 81px;
+}
+
+.home-h1-title {
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
