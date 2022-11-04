@@ -2,7 +2,7 @@ import React from 'react'
 
 function Beauty() {
   return (
-    <div>Beauty</div>
+    <div className='div-general-pages'>Beauty</div>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Pets() {
   return (
-    <div>Pets</div>
+    <div className='div-general-pages'>Pets</div>
   )
 }
 

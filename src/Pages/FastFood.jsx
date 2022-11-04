@@ -2,7 +2,7 @@ import React from 'react'
 
 function FastFood() {
   return (
-    <div>FastFood</div>
+    <div className='div-general-pages'>FastFood</div>
   )
 }
 

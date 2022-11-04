@@ -2,7 +2,7 @@ import React from 'react'
 
 function Forniture() {
   return (
-    <div>Forniture</div>
+    <div className='div-general-pages'>Forniture</div>
   )
 }
 

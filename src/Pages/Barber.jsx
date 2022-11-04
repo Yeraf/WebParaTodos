@@ -2,7 +2,7 @@ import React from 'react'
 
 function Barber() {
   return (
-    <div>Barber</div>
+    <div className='div-general-pages'>Barber</div>
   )
 }
 
