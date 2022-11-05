@@ -10,6 +10,7 @@ import Forniture from "./Pages/Forniture";
 import Pets from "./Pages/Pets";
 import Services from "./Pages/Services";
 import Sport from "./Pages/Sports";
+import Contact from "./Pages/Contact";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -30,6 +31,7 @@ function RoutesApp() {
             <Route exact path="/pets" element={<Pets />}></Route>
             <Route exact path="/sport" element={<Sport />}></Route>
             <Route exact path="/services" element={<Services />}></Route>
+            <Route exact path="/contact" element={<Contact />}></Route>
           </Routes>
         </BrowserRouter>
       </div>

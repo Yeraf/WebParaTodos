@@ -9,7 +9,8 @@ import Furniture from '../Images/ImgNavbar/furniture.png';
 import HairCut from '../Images/ImgNavbar/hair-cutting.png';
 import Pets from '../Images/ImgNavbar/veterinary.png';
 import Sport from '../Images/ImgNavbar/balls-sports.png';
-import Servicios from '../Images/ImgNavbar/eye.png';
+import Servicios from '../Images/ImgNavbar/services.png';
+import Support from '../Images/ImgNavbar/support.png';
 
 import { Link } from "react-router-dom";
 
@@ -68,6 +69,11 @@ function Navbar() {
             <hr/>
             <Link className="nav-item active" to="/services">
                 <img src={Servicios} className="navbar-brand-link-global"></img>
+            </Link>
+            <hr/>
+            <hr/>
+            <Link className="nav-item active" to="/contact">
+                <img src={Support} className="navbar-brand-link-global"></img>
             </Link>
             <hr/>
           </ul>
