@@ -5,7 +5,7 @@ import Fastfood from "../JSON/Fastfood.json";
 function FastFood() {
   return (
     <div className="div-general-pages container">
-      {Fastfood.map((fastfood) => {
+      { Fastfood && Fastfood.map(fastfood => {
         return (
           <div class="card fastfood-card" key={fastfood.id}>
             <img src="..." class="card-img-top" alt="..."></img>
