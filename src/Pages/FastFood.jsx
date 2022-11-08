@@ -16,9 +16,9 @@ function FastFood() {
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
+              <li class="list-group-item">{fastfood.phone} / {fastfood.phone2}</li>
+              <li class="list-group-item">{fastfood.email}</li>
+              <li class="list-group-item">{fastfood.ubication}</li>
             </ul>
             <div class="card-body">
               <a href="#" class="card-link">

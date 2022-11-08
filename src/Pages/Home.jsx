@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="div-general-pages">
+    <div className="div-general-pages-home">
       <div className="container home-div-tittle">
         <h1 className="home-h1-title">Web para todos Alajuelita</h1>
       </div>
