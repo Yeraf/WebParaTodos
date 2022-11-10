@@ -4,12 +4,11 @@
     text-align: center;
 }
 
-.fastfood-card {
+.barber-div-card {
     width: 18rem;
     display: inline-block;
     margin-bottom: 3px;
     margin-left: 3px;
-
 }
 
 @media (max-width: 360px) {
@@ -17,7 +16,7 @@
         margin: auto;
         margin-top: 81px;
     }
-    .fastfood-card {
+    .barber-div-card {
         /* background-color: brown; */
         margin-left: 0px;
         margin-bottom: 18px;
@@ -30,7 +29,7 @@
         margin: auto;
         margin-top: 81px;
     }
-    .fastfood-card {
+    .barber-div-card {
         /* background-color: rgb(0, 206, 221); */
         margin-left: 0px;
         margin-bottom: 18px;
@@ -43,7 +42,7 @@
         margin: auto;
         margin-top: 81px;
     }
-    .fastfood-card {
+    .barber-div-card {
         /* background-color: rgb(166, 17, 196); */
         margin-left: 19px;
         margin-bottom: 18px;
@@ -51,27 +50,13 @@
     }
 }
 
-@media only screen and (min-width: 1181px) and (max-width: 1300px){
+@media only screen and (min-width: 1181px) and (max-width: 1500px){
     .div-general-pages {
         margin: auto;
         margin-top: 81px;
-        margin-left: 0px;
+        margin-left: 160px;
     }
-    .fastfood-card {
-        /* background-color: rgb(255, 230, 0); */
-        margin-left: 19px;
-        margin-bottom: 18px;
-        
-    }
-}
-
-@media only screen and (min-width: 1301px) and (max-width: 1500px){
-    .div-general-pages {
-        margin: auto;
-        margin-top: 81px;
-        margin-left: 0px;
-    }
-    .fastfood-card {
+    .barber-div-card {
         /* background-color: rgb(255, 230, 0); */
         margin-left: 19px;
         margin-bottom: 18px;
